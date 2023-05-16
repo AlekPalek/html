@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Formi</title>
+    </head>
+
+    <body>
+
+        <form>
+            <input type="text" placeholder="name" value="Aco" name="input-name" /> <br>
+            <label>Surname: </label> <input type="text" /> <br>
+            <input type="password" placeholder="password" /> <br>
+
+            <!--for="email" will focus the input when the user clicks the label-->
+            <label for="e-mail">Email</label>
+            <input type="email" name="email" id="e-mail"> <br>
+            <input type="file" name="sebd-file"> <br>
+            <input type="date" > <br>
+            <input type="number"> <br>
+
+            <label>Radio button </label><input type="radio" name="radio"> <br>
+            <label>Checkbox</label><input type="checkbox" name="checkbox">
+        </form>
+        <br>
+        
+        <!--Primer2-->
+        <form method="post" action="">
+            <h2>Login Forma</h2>
+                <label>Name: </label><input type="text" name="name"/> <br>
+                <label>Surname: </label><input type="text" name="surname"> <br>
+                <label>E-mail</label><input required type="email" name="e-mail"> <br>
+                <!--<input type="submit" name="submit-btn">
+                <--this is submit buitton too-->
+                <button type="submit">submit-btn</button>
+        </form>
+        <br>
+        <br>
+
+        <!--primer 3-->
+        <form>
+            <h4>Prasanje broj 1</h4>
+            <label>A</label><input type="radio"name="Prasanje" value="A"><br>
+            <label>B</label><input type="radio"name="Prasanje" value="B"><br>
+            <label>C</label><input type="radio"name="Prasanje" value="C">
+            
+
+        </form>
+
+        <!--primer 4-->
+        <form>
+                <h4>Prasanje br2</h4>
+                <label>10</label><input type="checkbox" name="prasanje-2" value="10"> <br>
+                <label>50</label><input type="checkbox" name="prasanje-2" value="50"> <br>
+                <label>100</label><input type="checkbox" name="prasanje-2" value="100">
+        </form>
+
+        <!--Primer 5 drop down-->
+        <form>
+            <select > <!--disabled moze da se koristi kako atribut vo select <select disabled>-->
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+            </select>
+        </form>
+
+        <!--primer 6-->
+        <form>
+            <select multiple>
+                <optgroup label="Cars">
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Mercedes</option>
+                </optgroup>
+                <optgroup label="Bieks">
+                    <option>Honda</option>
+                    <option>Yamaha</option>
+                    <option>Suzuki</option>
+                </optgroup>
+            </select>
+        </form>
+        <br>
+
+        <!--primer 7-->
+        <h2>this is textarea</h2>
+        <textarea rows="10" cols="40"></textarea>
+
+        <!--Primer 8-->
+        <h2>This is fieldset</h2>
+            <form>
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <label>Username:</label><input type="text" name="username"/> <br>
+                    <label>Password</label><input type="password" name="password"/> <br>                                                  
+                </fieldset>
+            </form>
+
+        <!-- div and span elements-->
+        <div>
+            <h4>ovae guts</h4>
+            <img src="/tats/10 (1).jpg" width="250" height="250" alt="gutsmac">
+            <p>Opis za slikata gore</p> <p>iako e vo linija na sajt e pod nego</p>
+        </div>
+        <div>
+            <h3>this is dog</h3>
+             <img src="/tats/10 (1).jpg" width="250" height="250" alt="gutsmac">
+            <p>Opis za slikata gore</p> <p>iako e vo linija na sajt e pod nego</p>
+        </div>
+
+
+        <span>This is span</span>
+        <p><span>this</span> is looong paragraph with span tag in it</p>
+
+    </body>
+</html>
