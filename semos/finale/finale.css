@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: large;    
+    border: rgb(152, 25, 184) solid 3px;
+}
+
+body{
+    background-color: #f48fb1;
+}
+
+h1{
+    font-size: 60px;
+}
+
+header{
+    height: 200px;
+    background-color: aqua;
+    border: rgb(255, 0, 157) solid 2px;
+    display: flex;    
+    align-items: center; 
+    
+}
+nav{
+    width: 4000px;  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.pfp{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25%;
+}
+
+.anav{
+    padding: 5px;
+    border: solid black 1px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+li{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    align-items: center; 
+    justify-content: right;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+
+.anav:hover{
+    font-size: 40px;
+    background-color: pink;
+    color: crimson;
+}
+
+.container{
+    width: auto;
+    height: 1000px;
+    border: rgb(152, 25, 184) solid 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2{
+    text-align: center;    
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+button{
+    display: flex;
+    justify-content: right;
+}
+
+.kartica-ceo{
+    width: 550px;
+    height: 650px;
+    border: solid black 2px;
+    margin: 15px;
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 25px;
+    
+}
+
+.cardimg{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.nature{
+    width: 550px;
+    height: 650px;
+    border: solid black 2px;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(25, 197, 111);
+    border-radius: 25px;
+}
+
+.natureimg{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.pets{
+    width: 550px;
+    height: 650px;
+    border: solid black 2px;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(33, 178, 204);
+    border-radius: 10px;
+}
+
+.petsimg{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+button:hover{
+    width: 130px;
+    height: 70px;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}

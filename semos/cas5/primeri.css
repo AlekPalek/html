@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    background-color: lightblue;
+}
+
+nav{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+    /*margin-top: 30px; ova e aeden nacin da se centerne vertikalno*/
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #737373;
+    border-radius: 4px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 200px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(161, 23, 23);
+    color: rgb(182, 92, 92);
+}
+
+.alert{
+    background-color: #f8d7da;
+    margin: 15pz 20px;
+    padding: 7px;
+    border-radius: 8px;
+    text-align: center;
+    color: #6d5f5f;
+}

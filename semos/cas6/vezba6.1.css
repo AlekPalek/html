@@ -1,0 +1,61 @@
+.card1{
+    height: 450px;
+    width: 250px; 
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card1 > img{ 
+    width: 100%;
+    height: 50%;
+}
+
+.textot{
+    margin-left: 5px;
+}
+
+.button :hover{
+    font-size:15;
+}
+
+.card2{
+    height: 500px;
+    width: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQvyMN6crLehOUyiViJvHq9KyZ8zCyFPxfOVsgmRAu0w&s);
+}
+
+.naslovslika2{
+    font-size: 27px; 
+    text-align: center;
+}
+.parag{
+    font-size: 18px;
+    text-align: center;
+}
+
+.card3{
+    width: 600px;
+    height: 200px;
+}
+
+img{
+    padding: 5px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.trojka{
+    float: right;
+}
+
+.trojka3:hover{
+    float: right;
+    background-color: aqua;
+}

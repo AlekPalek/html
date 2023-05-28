@@ -1,0 +1,55 @@
+/*univerzalen selektor sekad se pisuva prv*/
+*{
+    margin: 0px;
+}
+
+/* Element selector */
+a{
+    color: rgb(9, 255, 0); 
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* ID selector */
+#text-id{
+    border: 3px dotted red; 
+}
+
+/*class sleector*/
+.text-class{
+    font-size: large;
+    color: green;
+    border: 1px solid black;
+}
+
+*text-class{
+    font-size: large;
+    color: green;
+}
+
+/*grouping selectors*/
+.div-elemnt, .div-elemnt-2 {
+    width: 360px;
+    height: 80px;
+    border: 2px solid green;
+    /* margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;*/
+    /*ili*/
+    margin: 10px 15px 20px 25px;
+    padding: 15px;
+}   
+
+/*.div-elemnt-2{
+    width: 300px;
+    height:  100px;
+    border: 3px solid blueviolet;
+    margin: 10px;
+} */
+
+#special-div{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+}

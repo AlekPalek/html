@@ -1,0 +1,30 @@
+.par{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    position: relative;
+}
+
+.a{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0)
+}
+
+.s{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+}

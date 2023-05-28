@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      body {
+        background-color: rgb(73, 207, 162);
+      }
+      div {
+        display: flex;
+      }
+      img {
+        width: 500px;
+        height: 300px;
+        border: solid black 5px;
+      }
+      button {
+        width: 200px;
+        height: 200px;
+      }
+
+      @media screen and (max-width: 800px) {
+        body {
+          background-color: red;
+        }
+        .parent {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Photos of Nature</h2>
+    <div class="parent">
+      <div class="ab"><img src="/finale/n1.jpg" alt="A" /></div>
+      <div class="ab"><img src="/finale/n2.jpg" alt="b" /></div>
+      <div class="ab"><img src="/finale/n3.jpg" alt="c" /></div>
+      <div class="ab"><img src="/finale/n4.jpg" alt="d" /></div>
+    </div>
+    <br />
+    <a href="/finale/finale.html"><button>Go home</button></a>
+  </body>
+</html>

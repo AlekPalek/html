@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+}
+
+.container{
+    height: 100vh; /* vh opfakja cela str */
+    background-color: antiquewhite;
+    display: flex;  /*ova e potrebno za flexbox*/
+    justify-content: center; /*horizontala*/
+    align-items: center; /*vertikala*/
+}
+
+.item{
+    background-color: grey;
+    color: white;
+}
+
+.flex-container{
+    background-color: rgb(51, 34, 211);
+    height: 200px;
+    display: flex;
+    /*justify-content: center;
+    align-items: center; */
+    /*flex-wrap: wrap;  flexwrap ni kazuva kako smaite child lementi da se pozicioniraat koga nemaat dovolno mesto odnosno se razmestuva goleminata i px na stranicata */
+    /* justify-content: space-evenly; */
+    /*flex-direction: column; /* justifycontent i alignitems si gi zavzemaat mestat s ocollumn*/
+}
+
+.child{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+}
+
+.box1{
+    /* align-self: flex-end; */
+    /* order: 2; */
+    /* flex-grow: 1; */
+}
+
+.box2{
+    /* order: 1; */
+    /* flex-grow: 2; */
+}
+
+.box3{
+   /* order: 3; */
+   /* flex-grow: 1; */
+   /* flex-shrink: 3; */
+}

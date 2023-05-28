@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between; /* ova gi odale4uva img i ul tie se dva razli4ni elemnti bidejki se vo header*/
+    align-items: center; /* za da bide centrirano vo headereto to4no namesteno */
+}
+
+ul{
+    width: 200px;
+    display: flex; /*flex-direction: row; ova ni e deault*/
+    list-style: none; /* da gi trgneme to4kite od ul */
+    justify-content: space-between; /* potrebno ni e wisth za ova da rab */
+}
+
